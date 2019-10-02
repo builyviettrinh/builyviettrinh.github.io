@@ -1,0 +1,250 @@
+/* Stylinf the toggle lable */
+.toggle {
+    background-color: #f37d7d;
+}
+.banner_inner_overlay{
+    background: rgba(0, 0, 0, 0.2);
+}
+nav a {
+    font-weight: 600;
+    font-size: 15px;
+}
+nav li.booking a {
+    background: #f37d7d;
+    }
+    .overlay {
+        background: rgba(0, 0, 0, 0.2);
+    }  
+/*-- stats --*/
+.counter span.fa {
+    color: #E97D85;
+}
+.right-cont ul li span.fa {
+    color: #E97D85;
+}
+/*-- book --*/
+.book{
+	background: #fbcfcf; 
+}
+.book {
+    background: url(../images/cachdung.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    position: relative;
+} 
+.grid-info h4 {
+    color: #615242;
+}
+.grid-info p {
+	color: #926868;
+	text-align: justify;
+	 font-size: 20px; 
+}
+.inner-w3pvt-wrap p {
+    font-size: 20px;
+	color: #772d2d;
+	text-align: justify;
+}
+.overlay-inner {
+    background: rgba(0, 0, 0, 0.3);
+} 
+.overlay-all {
+    background: rgba(0, 0, 0, 0.3);
+}
+.view-package a {
+    background: #f37d7d;
+} 
+button.sent-butnn {
+    background: #f37d7d;
+
+}
+.image-tour p {
+    background: #f37d7d;
+} 
+.package-info h6 span.fa {
+	color: #f37d7d;
+}
+ul.listing li span.fa {
+    font-weight: normal;
+    color: #f37d7d;
+}
+.inner-sec-grid span.fa {
+    font-size: 3em;
+    color:#f8f4f4;
+}
+.destinations-info {
+    background: rgba(243, 125, 125, 0.8);
+}
+
+/*add plugin */
+/* Gibson Buttons */
+/* hover button */
+a {
+    text-decoration: none!important;
+}
+a.btn-one {
+	color: #fff;
+	cursor: pointer;
+	z-index: 1;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.btn-one:hover {
+	background-color: transparent;
+}
+a.btn-one:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.btn-one:before {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	background: #f37d7d;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.btn-two {
+	color: #fff;
+	cursor: pointer;
+	z-index: 1;
+	position: relative;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.btn-two:hover {
+	background-color: transparent;
+}
+a.btn-two:hover:before {
+	right: 0%;
+	left: auto;
+	width: 100%;
+}
+a.btn-two:before {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	background: #f37d7d;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+/* icon */
+.icon {
+    width: 140px;
+    height: 120px;
+    line-height: 100px;
+	border: none;
+}
+div.icon img {
+    vertical-align: middle;
+/* thuộc tính này sẽ làm full hình */
+    width: 100%;
+	height: 120px;
+	border-radius: 50%;
+}
+/* icon */
+.contact-right h4 {
+	margin-top: 10px;
+}
+.contact-left-form {
+	padding: 0px;
+}
+.txt-justify {
+	text-align: justify;
+	color: #772d2d;
+	font-size: 18px;
+} 
+p.text {
+	font-size:20px;
+}
+.tab-main input:checked+label {
+    background: #f37d7d;
+    color: #fff;
+}
+
+/* xem chi tiet */
+.draw-border {
+	color: #fff;
+	transition: color 0.25s 0.0833333333s;
+	position: relative;
+	border: none;
+	background-color: #f37d7d;
+  }
+  .draw-border::before, .draw-border::after {
+	border: 0 solid transparent;
+	box-sizing: border-box;
+	content: "";
+	pointer-events: none;
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	right: 0;
+  }
+  .draw-border::before {
+	border-bottom-width: 4px;
+	border-left-width: 4px;
+  }
+  .draw-border::after {
+	border-top-width: 4px;
+	border-right-width: 4px;
+  }
+  .draw-border:hover {
+	color: #000;
+	background-color: #fff
+  }
+  .draw-border:hover::before, .draw-border:hover::after {
+	border-color: #f37d7d;
+	transition: border-color 0s, width 0.25s, height 0.25s;
+	width: 100%;
+	height: 100%;
+  }
+  .draw-border:hover::before {
+	transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+	transition-delay: 0s, 0.25s, 0s;
+  }
+ /* xem chi tiet */
+ .image-tour {
+	border: 3px solid #f37d7d;
+ }
+.package-info {
+	border: 3px solid #f37d7d;
+	border-top: none;
+}
+h3.heading, h2.heading {
+    color: #772d2d;
+}
+h4.destination {
+    color: #772d2d;
+}
+a.move-top span{
+	background: #f37d7d;
+}
+
+.footer_w3layouts_section_1its{
+	background: #fbcfcf;
+}
+.footer_w3layouts_section_1its h3,.footer_w3layouts_section_1its h2{
+	color: #707070;
+}
+.footer-title h3 {
+	color: #772d2d;
+}
+/*-- copy right --*/
+.copyright {
+    background: #fff;
+}
+.copyright p a {
+	color: #772d2d;
+}

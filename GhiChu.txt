@@ -1,0 +1,17 @@
+1.Template
+https://demo.w3layouts.com/demos_new/template_demo/12-03-2019/grand_tour-demo_Free/87347618/web/index.html
+
+
+2. Plugin
+https://codepen.io/sazzad/pen/yNNNJG
+
+https://codepen.io/giana/pen/xdXpJB
+
+3.Customize
+customize.css
+
+4.List page:
+- Trang chu
+- Ve chung toi
+- Cam nang huu ich
+- Dat hang
